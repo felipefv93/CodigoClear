@@ -1,0 +1,330 @@
+div.formulario-body {
+    padding: 0;
+}
+
+.form-type {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.helper-text {
+    position: absolute !important;
+    right: 12px !important;
+    top: 22px !important;
+}
+
+.form-body {
+    // border: 1px solid #333;
+    background-color: #fff;
+    margin-top: 1%;
+}
+
+.form-head {
+    background-color: #26a63a;
+    color: white;
+    text-align: center;
+}
+
+.input-field>.input-field.col.sentence {
+    margin-right: 0;
+    font-size: 8pt;
+}
+
+:global {
+    div.formulario-body {
+        padding: 0;
+    }
+    .formulario_body {
+        padding: 0;
+    }
+}
+
+.dinamycTable {
+    background-color: white;
+    box-shadow: rgba(51, 51, 51, 0.4) 0px 1px 3px;
+    tbody {
+        tr {
+            td.dotted {
+                border-radius: 0;
+                border-left: 1px solid rgb(224, 224, 224);
+                border-right: 1px solid rgb(224, 224, 224);
+                p {
+                    color: #fff !important;
+                    margin: 0 !important;
+                    padding: 0 !important;
+                    text-align: center !important;
+                }
+            }
+        }
+    }
+}
+
+.dottValid {
+    background-color: #1bd01b;
+    border-radius: 0;
+    p {
+        color: #fff !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        text-align: center !important;
+    }
+}
+
+.dottInvalid {
+    background-color: #ff3636;
+    border-radius: 0;
+    p {
+        color: #fff !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        text-align: center !important;
+    }
+}
+
+.error-inline {
+    color: #F44336;
+}
+
+.xelect-disabled {
+    opacity: 0.5 !important;
+}
+
+.btn-photo {
+    
+    padding: 0 !important;
+    p {
+        margin-top: 1px !important;
+    }
+}
+
+.btn-phot:focus {
+    background-color: #cce4d8;
+}
+
+.btn-save {
+    background-color: #215d11;
+}
+
+.btn-save:hover {
+    color: white;
+    background-color: #2e8017;
+}
+
+.btn-save:focus {
+    background-color: #2e8017;
+}
+
+.btn-cancel {
+    margin-right: 13.666px;
+    background-color: rgba(154, 154, 154, 0.534);
+}
+
+.btn-cancel:hover {
+    color: white;
+    background-color: rgba(154, 154, 154, 0.334);
+}
+
+.btn-cancel:focus {
+    background-color: rgba(154, 154, 154, 0.334);
+}
+
+.custom-tab {
+    _: _;
+    
+    a {
+        color: green !important;
+        padding: 0 !important;
+        text-align: center !important;
+    }
+    a:focus {
+        background-color: #d4d4d436 !important;
+    }
+}
+
+.body-tab {
+    box-shadow: 1px 1px 4px #3333337a;
+    border-right: 1px solid #3333332e;
+    background-color: white;
+}
+
+.custom-indicator {
+    _: _;
+    
+    li[class=indicator] {
+        background-color: green !important;
+    }
+}
+
+.title-row {
+    margin-bottom: 0;
+}
+
+.btn-back{
+    font-size: 10px !important;
+    position: absolute !important;
+    top: 71px !important;
+    left: 20px !important;
+    transition: all 0.3s;
+    i{
+      font-size: 10px !important;
+    }
+  }
+
+  .btn-back:hover{
+    background-color:white;
+    color: green;
+  }
+
+.btn-image{
+    float:right;
+
+}
+
+.custom-boom{
+    margin-top: 3.499px;
+    div{
+      _:_;
+      label{
+        position: relative;
+        margin-right: 10px;
+        margin-bottom: 0px;
+        span[class^="shit_span"]{
+          position: absolute;
+          top: -12px;
+          left: 0;
+          margin-left: 0 !important;
+          color:#737373;
+        }
+        div{
+          _:_;
+          span[class^="span_shit"]{
+            margin: 0;
+            display:none;
+          }
+          div{
+            _:_;
+            div{
+              _:_;
+              select{
+                _:_;
+              }
+              div{
+                _:_;
+                ul[class^="ul_s"]{
+                  background-color: transparent;
+                  padding:0;
+                  overflow-x:hidden !important;
+                  box-shadow: none;
+                  border-bottom: 1px solid #9e9e9e !important;
+                  li{
+                    border-radius: 6.66px;
+                    input{
+                      _:_;
+                    }
+                  }
+                }
+                ul[class$="active_s"]{
+                  border:0 none;
+                  border-bottom:1px solid teal !important;
+                }
+                ul[class^="shy_s_ul"]{
+                  border:0;
+                  box-shadow: 0px 0px 4px #33333359;
+                  li{
+                    border:0;
+                    a{
+                      border:0;
+                      transition:all 0.3s;
+                      font-size: 14px;
+                    }
+                    a:focus{
+                      border:0;
+                      outline: none;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      label:after{
+        content: '';
+        position: absolute;
+        top: 17px;
+        right: 0px;
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid #000;
+        clear: both;
+        
+      }
+    }
+  }
+
+.custom-xelect{
+    _:_;
+    div{
+        select{
+
+        }
+        div{
+            ul[class^="ul_s"]{
+                background-color: transparent;
+                padding:0;
+                overflow-x:hidden !important;
+                box-shadow: none;
+                border-bottom: 1px solid #9e9e9e !important;
+                li{
+                  border-radius: 6.66px;
+                  input{
+                    _:_;
+                  }
+                }
+              }
+              ul[class$="active_s"]{
+                border:0 none;
+                border-bottom:1px solid teal !important;
+              }
+              ul[class^="shy_s_ul"]{
+                border:0;
+                box-shadow: 0px 0px 4px #33333359;
+                li{
+                  border:0;
+                  a{
+                    border:0;
+                    transition:all 0.3s;
+                    font-size: 14px;
+                  }
+                  a:focus{
+                    border:0;
+                    outline: none;
+                  }
+                }
+              }
+        }
+        
+    }
+    label:after{
+        content: '';
+        position: absolute;
+        top: 32px;
+        right: 27px;
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid #000;
+        clear: both;
+        
+      }
+    label{
+        position: absolute;
+        top: -16px;
+    }
+}
+
+.custom-title{
+    width: 400px !important;
+}

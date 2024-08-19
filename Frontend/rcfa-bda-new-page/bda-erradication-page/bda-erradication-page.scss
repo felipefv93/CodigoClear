@@ -1,0 +1,71 @@
+.counter-card{
+    max-height: 210px;
+    margin-bottom: 40px;
+    .counter-head{
+        background-color: #439e70;
+        padding: 1px 10px 9px 10px;
+        box-shadow: 1px 1px 1px #33333385;
+        color:white;
+        h6{
+            
+            margin: 0;
+            font-weight: bold;
+            font-size: 0.83rem;
+            margin: 5px 0 5px 0;
+        }
+        p{
+            margin: 0;
+            font-weight: 300;
+            font-size: 0.83rem;
+        }
+    }
+    .counter-body{
+        box-shadow: 1px 1px 1px #33333385;
+        
+        h6{
+            font-weight: bold;
+            margin:0;
+            padding: 6px;
+            font-size: 0.83rem;
+        }
+        a{
+            width: 100%;
+            background-color: #ddd;
+            color:#000000b3;
+            text-align: center;
+            font-size: 11px;
+        }
+        i{
+            margin-right: 9px;
+        }
+    }
+}
+.modal-main{
+    width: "80%";
+    max-height: 90% !important;
+    overflow: hidden;
+    h6 {
+        text-align: center;
+        background-color: rgba(117, 193, 103, 0.48);
+        margin: 0;
+        padding: 9px;
+    }
+
+}
+.custom-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color:#33333338;
+    color:white;
+}
+.custom-btn:hover{
+    color: #ffffffe3;
+    background-color: #33333396;
+}
+.img-btn{
+    _:_;
+}
+.img-btn:hover{
+    background-color:#badeb3 !important;
+}
